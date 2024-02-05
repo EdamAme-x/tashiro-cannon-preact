@@ -1,3 +1,4 @@
 # tashiro-cannon-preact
 
-[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/EdamAme-x/tashiro-cannon-preact)
+良くある田代砲の現代版です。
+with Preact
