@@ -1,4 +1,3 @@
-import { useRef, useState } from 'preact/hooks'
 import './app.css'
 import { Panel } from './components/panel'
 
