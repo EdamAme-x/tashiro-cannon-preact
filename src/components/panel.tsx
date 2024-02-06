@@ -1,4 +1,4 @@
-import { useState, useRef } from "preact/hooks";
+import { useState } from "preact/hooks";
 import { fixURL } from "../utils/fixURL";
 import { isURL } from "../utils/isURL";
 import { Attack } from "./attack";
@@ -45,7 +45,7 @@ export function Panel() {
               type="text"
               id="url"
               value={url}
-              onInput={(e) => {
+              onInput={(e: any) => {
                 setUrl(e.currentTarget.value);
               }}
               placeholder="https://荒らし.com"
@@ -62,7 +62,7 @@ export function Panel() {
                 textAlign: "center",
               }}
               value={method}
-              onChange={(e) => {
+              onChange={(e: any) => {
                 setMethod(e.currentTarget.value as "GET" | "POST");
               }}
             >
